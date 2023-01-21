@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "cstdlib": "cpp",
+        "algorithm": "cpp",
+        "any": "cpp",
+        "future": "cpp",
+        "tuple": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}
