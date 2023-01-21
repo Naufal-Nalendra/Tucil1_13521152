@@ -6,7 +6,11 @@
         "algorithm": "cpp",
         "any": "cpp",
         "future": "cpp",
-        "tuple": "cpp"
+        "tuple": "cpp",
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "istream": "cpp",
+        "iomanip": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }

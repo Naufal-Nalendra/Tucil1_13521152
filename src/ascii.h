@@ -20,6 +20,8 @@ cout << " Permainan kartu 24 menggunakan algoritma brute force" << endl;
 cout << "--------------------------------------------------------" << endl;
 cout << "            Name : Muhammad Naufal Nalendra          " << endl;
 cout << "            NIM  : 13521152                           " << endl;
+cout << "--------------------------------------------------------" << endl;
+cout << endl;
 
 }
 
