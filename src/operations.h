@@ -11,12 +11,13 @@ typedef struct
     int denom;
 } number;
 
-// Fungsi cek apakah bilangan bisa dibagi
+// Fungsi untuk cek apa x bisa dibagi oleh y
 bool isDivisible(int x, int y)
 {
     return (y != 0);
 }
 
+// Fungsi untuk melakukan operasi matematika sesuai operator
 number operation(char opr, number num1, number num2)
 {
     number ans;
