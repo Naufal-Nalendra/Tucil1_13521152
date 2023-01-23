@@ -39,8 +39,10 @@ void saveAnswer(string input[]) {
 // Fungsi untuk memberi input kartu secara acak
 void randomizedCards(string input[])
 {
+    srand(time(0));
     for (int i = 0; i < 4; i++){
-        int random = rand() % 13 + 1;
+        
+        int random = (rand() % 13) + 1;
 
         if (random == 1){
             input[i] = "A";

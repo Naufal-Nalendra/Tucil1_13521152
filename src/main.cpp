@@ -69,7 +69,7 @@ void displaySolutions() {
 void userInput(string message)
 {   
     int output[100];
-    string input[1000];
+    string input[100];
     vector<int> card(4);
 
     while (true)
