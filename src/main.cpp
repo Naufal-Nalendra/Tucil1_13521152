@@ -24,15 +24,15 @@ void displayRandomInput(string input[4]) {
     cout << endl;
 }
 // Fungsi untuk menampilkan waktu eksekusi ke layar
-void displayExecTime() {
-    float execTime = clock();
-    execTime = clock() - execTime;
+void displayExecTime(float time) {
+    
+    time = clock() - time;
     
     cout << endl;
     
     cout << "--------------------------" << endl;
     cout << "Execution time is ";
-    cout << fixed << setprecision(2) << execTime;
+    cout << fixed << setprecision(2) << time;
     cout << " ms" << endl;
     
 }
@@ -115,7 +115,7 @@ void userInput(string message)
     for (int i = 0; i < 4; i++){
         card[i] = output[i];
     }
-
+    float execTime = clock();
     while (next_permutation(card.begin(), card.end()))
     {
         operFirstTwo(card);
@@ -124,7 +124,7 @@ void userInput(string message)
     // tampilan solusi 24 game
     displaySolutions();
     // tampilan waktu eksekusi
-    displayExecTime();
+    displayExecTime(execTime);
     // tampilan pilihan saving
     displaySavePrompt(input);
 }
@@ -145,7 +145,7 @@ void randomInput() {
     for (int i = 0; i < 4; i++){
         card[i] = output[i];
     }
-    
+    float execTime = clock();
     while (next_permutation(card.begin(), card.end()))
     {
         operFirstTwo(card);
@@ -154,7 +154,7 @@ void randomInput() {
     // tampilan solusi 24 game
     displaySolutions();
     // tampilan waktu eksekusi
-    displayExecTime();
+    displayExecTime(execTime);
     // tampilan pilihan saving
     displaySavePrompt(input);
 
