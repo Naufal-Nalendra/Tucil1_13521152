@@ -64,7 +64,6 @@ void randomizedCards(string input[])
 }
 
 // Fungsi untuk mengubah kartu menjadi angka
-
 void changeInteger(string Cards[4], int num[4])
 {
     for (int i = 0; i < 4; i++) {
